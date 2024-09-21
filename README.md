@@ -1,0 +1,1 @@
+this is a JS TS starting file. Use "npm run install" command to install necessary packages. 
