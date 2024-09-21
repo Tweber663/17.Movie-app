@@ -1,3 +1,2 @@
-import Stopwatch from './StopwatchWithResults.js';
-new Stopwatch(document.querySelector('.stopwatch'));
+"use strict";
 //# sourceMappingURL=app.js.map
