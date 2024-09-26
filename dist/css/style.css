@@ -86,15 +86,31 @@ header {
   left: 0;
   bottom: 0;
   right: 0;
+  max-height: 400px;
   background-color: white;
   transition: 300ms ease;
   padding: 10px;
   border-radius: 0 0 3px 3px;
-  transform: translateY(250px);
+  transform: translateY(700px);
+  overflow-y: scroll;
 }
 
 .movie:hover .overview {
   transform: translateY(0px);
+}
+
+.overview::-webkit-scrollbar {
+  width: 16px;
+}
+
+.overview::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.overview::-webkit-scrollbar-thumb {
+  background-color: #22254b;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
